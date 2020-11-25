@@ -5,6 +5,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
+/**
+ * @author yangpeng
+ */
 @SpringBootApplication
 public class HodgepodgeApplication {
 
@@ -13,7 +16,6 @@ public class HodgepodgeApplication {
                 .sources(HodgepodgeApplication.class)
                 .bannerMode(Banner.Mode.OFF)
                 .run();
-//        SpringApplication.run(HodgepodgeApplication.class, args);
     }
 
 }
