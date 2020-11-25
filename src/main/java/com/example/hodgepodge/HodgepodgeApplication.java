@@ -9,8 +9,11 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 public class HodgepodgeApplication {
 
     public static void main(String[] args) {
-//        new SpringApplicationBuilder().bannerMode(Banner.Mode.OFF).run();
-        SpringApplication.run(HodgepodgeApplication.class, args);
+        new SpringApplicationBuilder()
+                .sources(HodgepodgeApplication.class)
+                .bannerMode(Banner.Mode.OFF)
+                .run();
+//        SpringApplication.run(HodgepodgeApplication.class, args);
     }
 
 }
